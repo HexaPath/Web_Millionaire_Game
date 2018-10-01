@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+.center_wrapper {
+    background: #111;
+    border: 1px solid #191919;
+    border-radius: .3em;
+    bottom: 0;
+    box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+    height: 280px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 500px;
+    
+    text-align: center;
+    color: #AB3;
+}
+
+.S0_Goto {
+    text-decoration: none; 
+    border: 1px solid black;
+    border-radius: 1.7em;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.S0_Goto :hover {
+    text-align: right;
+    color: yellow;
+
+}
+
+#inline {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#S0_Goto_Game {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#S0_Goto_Login {
+}
+
+#S0_Goto_Register {
+}
+
+h2 {
+    color: aqua;
+}
+
+#row {
+    display:flex;
+    flex-direction: row;
+    padding-top: 5%;
+}
+
+#topic {
+    width: 95vw;
+    height: 95vh;
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+.table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+#topicbtn {
+    text-decoration: none;
+    color: Orange;
+}

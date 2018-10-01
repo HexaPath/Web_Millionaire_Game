@@ -1,0 +1,228 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.game_wrap {
+    margin: auto;
+    width: 720px;
+    height: 560px;
+    border: 3px solid #11C;
+    border-radius: .7em;
+    vertical-align: middle;
+}
+
+
+.frontindex {
+    width: 456px;
+    height: 144px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: darkcyan
+}
+
+.basic {
+    border: 0;
+      font: inherit;
+      font-size: 100%;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+    background-color: darkblue;
+}
+
+
+
+.StartTheQuizBtn {
+    background-color: crimson;
+    padding: 15px 35px;
+    text-decoration: none;
+    
+}
+.StartTheQuizBtn:hover {
+    font-weight: 500;
+    color: yellow;
+    text-decoration: underline;
+}
+
+.login_register {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.login_register:hover {
+    color:mediumvioletred;
+    text-decoration: underline;
+}
+
+.login_container {
+    width: 255px;
+    height: 152px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: darkcyan;
+}
+
+.register_container {
+    width: 312px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: darkcyan;
+}
+
+.game {
+    background-color: #0a0342;
+    margin: 0 auto;
+}
+
+.answer-bnt {
+    padding: 20px 5px 20px 5px;
+    width: 620px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 0.5em;
+}
+
+.answer-bnt:hover {
+    border: 1xp solid yellow;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+.question {
+    background-color: white;
+    font-family: Righteous; 
+    font-size: 0.7em;
+    color: orange;
+    margin: 35px 25px;
+    padding: 1px; 
+    text-align: center;
+    border: 3px solid #149;
+    border-radius: 1.3em;
+}
+
+#gameloginbutton {
+    margin-right: 25px;
+    margin-top: -30px;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: red;
+    font-weight: 500;
+    font-size: 1em;
+    float: right;
+    border-radius: .7em;
+}
+#gameloginbutton:hover {
+    font-weight: 700;
+    font-size: 1.3em;
+    color: green;
+}
+
+.hideme{
+    height: 20px;
+    display: block;
+}
+.hideme:hover{
+    height:40px;
+}
+
+#gamealreadyloginbutton {
+    display: block;
+    margin-right: 25px;
+    margin-top: -30px;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: red;
+    font-weight: 500;
+    font-size: 1em;
+    float: right;
+    border-radius: .7em;
+}
+
+#gamealreadyloginbutton:hover{
+    color: green;
+}
+
+
+.answers_1 {
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.op {
+    text-decoration: none;
+    color: black;
+    border: 1px solid green;
+    background-color: green;
+    padding: 15px 15px;
+    border-radius: 1.7em;
+}
+
+.op-btn {
+    padding-top: 15px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.op-btn :hover {
+    background-color: yellow;
+}
+
+.op-btn :active {
+    background-color: red;
+    border: 1px solid red;
+}
+
+ul {
+    list-style: none;
+    align-content: center;
+    width: 50px;
+    float: right;
+    padding-left:5px;
+    margin-right: 30px;
+    margin-top: -30px;
+    background-color: black;
+}
+
+#current_moneystamp {
+    margin-left: 5px;
+    font-size: 1.3em;
+    color: green;
+}
+
+.moneystamp {
+    margin-left: -5px;
+    font-size: 0.8em;
+    color: yellow;
+}
+
+.dropdown {
+    text-decoration: none;
+    color: red;
+    padding: 8px;
+    text-align: center;
+    float: right;
+    margin-right: -75px;
+    margin-top: -6px;
+}
+.dropdown:hover {
+    color: green;
+}
+
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    color: red;
+    text-decoration: none;
+    margin-right: -100px;
+    float: right;
+}

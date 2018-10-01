@@ -1,0 +1,247 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+.center_wrapper {
+    background: #111;
+    border: 1px solid #191919;
+    border-radius: .3em;
+    bottom: 0;
+    box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+    height: 570px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 620px;
+    
+    text-align: center;
+    color: #AB3;
+}
+
+.ADMIN-MENU {
+    text-decoration: none;
+}
+
+h2 {
+    color: aqua;
+}
+
+.gotobtns {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin: 15px;
+}
+
+
+.ADMIN-MENU_2 {
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 2.7em;
+    width: 280px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin: 5px;
+}
+.ADMIN-MENU_2:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#watisdas {
+    text-align: center;
+    color: blue;
+}
+
+.watahell {
+    margin: 15px;
+    background-color:skyblue;
+    width: 90vw;
+    height: 90vh;
+    font-size: 1.3em;
+}
+
+
+
+
+
+.table, th {
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.Action {
+    
+}
+
+.Actionbtn {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 0.7em;
+    background-color: black;
+    color: orange;
+    text-decoration: none;
+}
+.Actionbtn:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.row {
+    border: 1px solid black;
+}
+
+.watawhat {
+    margin: 15px;
+    background-color:crimson;
+    width: 90vw;
+    height: 90vh;
+    font-size: 1.3em;
+}
+
+
+
+#whatisdas {
+    text-align: center;
+    color: lightgreen;
+}
+
+
+
+#questionbox {
+    720px;
+}
+
+#qaddform {
+    width: 720px;
+}
+
+#editQform {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.truebtn {
+    width: 20px;
+    margin-left:400px;
+}
+#questinedit {
+    width: 98vw;
+    height: 95vh;
+    background-color: darkgreen;
+    color: dodgerblue;
+}
+
+#editQ {
+    margin-left: 20%;
+}
+
+.textarea {
+    width: 420px;
+}
+
+.submitbtn{
+    margin-top: 15px;
+    padding: 10px;
+    width: 420px;
+}
+.backbtn {
+    text-decoration: none;
+    color: cyan;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 0.7em;
+    padding: 10px;
+    width: 380px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.backbtn:hover{
+    color: yellow;
+}
+
+.centerh1 {
+    text-align: center;
+}
+
+.truradio { 
+    margin-left: 25%;
+}
+
+#h2centeralignment {
+   float: center;
+}
+
+#select {
+}
+
+#usereditbody {
+    width: 98vw;
+    height: 98vh;
+    background-color: darkcyan;
+}
+
+#form_1 {
+    background: #111;
+    border: 1px solid #191919;
+    border-radius: .3em;
+    bottom: 0;
+    box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+    height: 250px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+
+}
+
+.screwthis_2 { 
+    padding: 30px;   
+    padding-top: 5px;
+    border-top: 1px solid #19191a;
+ 
+}
+
+.input {
+    width: 235px;
+    height: 25px;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: .3em;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    background-color: rgba(105,105,105,0.3);
+
+}
+
+#Login_Button {
+    background: #fb0;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: .3em;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 
+                inset 0 10px 10px rgba(255,255,255,0.1);
+    color: #873C00;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    height: 40px;
+    padding: 5px 20px;
+    width: 100%;
+
+}
+
+
+
+#leaderboard {
+    background-color:forestgreen;
+    width: 98vw;
+    height: 98vh;
+}
