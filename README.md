@@ -1,2 +1,2 @@
 # Web_Millionaire_Game
-Game is localy hosted
+Game has to be localy hosted
